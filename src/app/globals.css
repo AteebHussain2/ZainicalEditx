@@ -2,20 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+    background-color: #1f2020;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::selection {
+    background-color: #f9f871;
+    color: #1f2020;
+}
+
+#about {
+    background-image: url('/video-editing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    z-index: 10;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 20s linear infinite;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    /* Adjust gap as needed */
 }
