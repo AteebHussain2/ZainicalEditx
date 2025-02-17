@@ -18,12 +18,12 @@ const HeroAli = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 py-4">
-          <button className="bg-[#5933ff] hover:scale-105 transition-all w-fit py-2 px-8 rounded-full flex gap-4 items-center text-text font-medium text-lg">
+          <a href="#projects" className="bg-[#5933ff] hover:scale-105 transition-all w-fit py-2 px-8 rounded-full flex gap-4 items-center text-text font-medium text-lg">
             Projects <GoProjectSymlink />
-          </button>
-          <button className="hover:bg-[#5933ff] hover:scale-105 transition-all border-[#5933ff] border-[3px] w-fit py-2 px-8 rounded-full flex gap-4 items-center text-text font-medium text-lg">
+          </a>
+          <a href="#contact" className="hover:bg-[#5933ff] hover:scale-105 transition-all border-[#5933ff] border-[3px] w-fit py-2 px-8 rounded-full flex gap-4 items-center text-text font-medium text-lg">
             Contact <LuContact />
-          </button>
+          </a>
         </div>
       </div>
     </section>

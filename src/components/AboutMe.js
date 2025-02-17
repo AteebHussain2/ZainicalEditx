@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className='relative z-20 max-w-4xl w-full flex flex-col items-center space-y-10 text-center'>
                 <span>
                     <h2 className='text-white text-4xl sm:text-5xl font-bold'>About Me</h2>
-                    <div className='max-w-[90px] h-[1px] bg-white mt-4'></div>
+                    <div className='max-w-[90px] h-[1px] bg-white mt-6'></div>
                 </span>
                 <p className='text-white opacity-90 text-lg font-light max-w-3xl'>
                     Unlock the full potential of your visuals! As a seasoned video editor, I craft stunning, attention-grabbing content that elevates your brand and leaves a lasting impression. From YouTube showstoppers to social media teasers and custom thumbnails that pop, my expertise ensures your message is conveyed with clarity, creativity, and polish. Let's collaborate and bring your vision to life in breathtaking style!

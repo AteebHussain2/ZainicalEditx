@@ -17,7 +17,7 @@ const Projects = () => {
         <section id='projects' className='max-w-[90%] lg:max-w-[80%] h-auto py-20 flex flex-col space-y-16 justify-center items-center mx-auto'>
             <span className='text-center'>
                 <h2 className='text-white text-4xl sm:text-5xl font-bold'>My Projects</h2>
-                <div className='max-w-[90px] h-[1px] bg-white mt-4 mx-auto'></div>
+                <div className='max-w-[90px] h-[1px] bg-white mt-6 mx-auto'></div>
             </span>
 
             <div className='w-full flex flex-col space-y-10'>
