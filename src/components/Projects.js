@@ -11,6 +11,7 @@ const Projects = () => {
     const photos = {
         link1: '/thumbnails/image1.jpg',
         link2: '/thumbnails/image2.jpg',
+        link2: '/thumbnails/image3.jpg',
     }
 
     return (
