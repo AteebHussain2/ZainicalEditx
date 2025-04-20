@@ -1,7 +1,7 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const poppinsFont = Poppins({
   weight: '500',
