@@ -1,6 +1,7 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 const poppinsFont = Poppins({
   weight: '500',
@@ -19,6 +20,8 @@ export default function RootLayout({ children }) {
       <body className={`${poppinsFont.variable} antialiased`}>
         <Navbar />
         {children}
+
+        <Analytics />
       </body>
     </html>
   );
