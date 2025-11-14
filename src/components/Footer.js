@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
 
                     {/* TikTok */}
-                    <div className="flex flex-col space-y-4">
+                    <div className="hidden flex-col space-y-4">
                         <h3 className="text-xl font-semibold">TikTok</h3>
                         <div className="flex items-center space-x-3">
                             <FaTiktok className="text-yellow-400" />
@@ -59,7 +59,7 @@ const Footer = () => {
                             <a
                                 target='_blank'
                                 href="mailto:zainic00133@gmail.com" className="hover:text-yellow-400 transition-all">
-                                zainic00133@gmail.com
+                                zainicool33@gmail.com
                             </a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Footer = () => {
 
                 <div className="border-t border-text border-opacity-5 mt-8 pt-12 text-center">
                     <p className="text-sm text-gray-400">
-                        © {new Date().getFullYear()} Malik Ali Zain. All rights reserved.
+                        © {new Date().getFullYear()} <a href="https://dynamic-portfolios.vercel.app/ateeb" target='_blank'>Ateeb Hussain</a>. All rights reserved.
                     </p>
                 </div>
             </div>
